@@ -1,0 +1,21 @@
+﻿@model  EmployeeVieweModel
+
+
+<tr id="row_@Model.Id">
+    <td>
+        @Model.Id
+    </td>
+    <td>
+        @Model.Name
+
+    </td>
+    <td>
+       @Model.MobileNo
+    </td>
+    <td>
+       @Model.EmailId
+    </td>
+    <td>
+        <input type="button" value="Edit" onclick="updateEmployee(@Model.Id)" />
+    </td>
+</tr>

@@ -1,0 +1,12 @@
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\bin\Debug\net6.0\EmpCrudApp.EfCore.deps.json
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\bin\Debug\net6.0\EmpCrudApp.EfCore.dll
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\bin\Debug\net6.0\EmpCrudApp.EfCore.pdb
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.csproj.AssemblyReference.cache
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.AssemblyInfoInputs.cache
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.AssemblyInfo.cs
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.csproj.CoreCompileInputs.cache
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.dll
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\refint\EmpCrudApp.EfCore.dll
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\EmpCrudApp.EfCore.pdb
+C:\Users\sshukla\Desktop\EmpCrudApp\EmpCrudApp.EfCore\obj\Debug\net6.0\ref\EmpCrudApp.EfCore.dll

@@ -1,0 +1,7 @@
+﻿@model IQueryable<EmployeeVieweModel>
+
+@foreach (var item in Model)
+{
+    <partial name="_ListEmployeePartialView" model="@item"></partial>
+
+}

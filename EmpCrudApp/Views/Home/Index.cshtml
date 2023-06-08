@@ -1,0 +1,78 @@
+﻿@model IQueryable<EmpCrudApp.View_Model.EmployeeVieweModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <input type="button" onclick="addEmployee()" value="Create" />
+    <input type="button" onclick="GetEmployee()" value="Get" />
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Mobile No.
+            </th>
+            <th>
+               Email Id
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="myTable">
+        <partial name="_ListMulEmp" model="Model" />
+    </tbody>
+</table>
+
+<script>
+    function addEmployee(){
+        $.ajax({
+           url: "/Home/Add",
+           type:"POST",
+           dataType:"HTML",
+           success:function(response){
+$("#myTable").prepend(response);
+           }
+        })
+    }
+
+    function updateEmployee(id){
+        alert(id)
+        $.ajax({
+           url: "/Home/Update",
+           data:id,
+           type:"GET",
+           dataType:"HTML",
+           success:function(response){
+$("#myTable > #row_"+id).replaceWith(response);
+           }
+        })
+    }
+
+    function GetEmployee(){
+        alert("hii");
+        $.ajax({
+           url: "/Home/MyList",
+           dataType:"HTML",
+           success:function(response){
+               console.log(response);
+$("#myTable").append(response);
+           },
+           error:function(response){
+
+               console.log(response)
+           }
+        })
+    }
+
+</script>
+
